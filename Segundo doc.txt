@@ -1,1 +1,34 @@
-Teste
+Criar a pasta
+  mkdir pyladiesgit
+
+Vai até a pasta
+  cd pyladiesgit
+
+Inicializar o git na pasta
+  git init
+
+Definir nomes para os commits
+  git config --global user.name "nome"
+
+Definir e-mail que vai usar
+  git config --global user.email "thiagoids.ti@gmail.com"
+
+Saber os status dos arquivos
+  git status
+
+Adicionar o arquivo ao git
+  git add <nome do arquivo>
+
+Fazer o commit (tirar uma foto do arquivo)
+  git commit -m "momento que eu quero descrever"
+
+Para pegar um reposítório já existente
+  Exemplo: https://github.com/PyLadiesNatal/minicurso-git
+  git remote add origin git@github.com:PyLadiesNatal/minicurso-git.git
+
+Para enviar as alterações para o repositório remoto
+  git push -u origin master
+
+Ver todos os repositórios da máquina
+  git remote -v
+
